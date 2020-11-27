@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+.menu-top-box{
+    width:100%;
+}
+.menu-type-box{
+    display: flex;
+}
+.menu-type{
+    height:24px;
+    font-size:14px;
+    width:90px;
+    border:solid gray 1px;
+    border-radius:3px 3px 0 0;
+    background-color:white;
+    text-align: center;
+}
+.menu-title-box{
+    background-color:black;
+    height:45px;
+    display: flex;
+}
+.menu-back{
+    margin:9px 0 0 15px;
+    width:100px;
+}
+.menu-title-slide{
+    margin-right: 10px;
+}
+.menu-title{
+    position: absolute;
+    color:white;
+    margin:9px auto 0 0;
+    width:140px;
+    opacity:1;
+}
+.menu-title2{
+    position: absolute;
+    color:white;
+    margin:9px auto 0 0;
+    width:140px;
+    opacity:0;
+}
+.menu-title3{
+    position: absolute;
+    color:white;
+    margin:9px auto 0 0;
+    width:140px;
+    opacity:0;
+
+}

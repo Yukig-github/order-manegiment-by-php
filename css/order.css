@@ -1,0 +1,78 @@
+@charset 'UTF-8';
+
+.return{
+    font-size:14px;
+    background-color:white;
+    color:black;
+    width:38px;
+    height:22px;
+    text-align: center;
+    margin:10px 54px 0px 20px;
+    border-radius: 2px;
+}
+.order-content{
+    margin-top:25px;
+}
+.table-list-title{
+    width:100%;
+    font-size:14px;
+    margin-top:5px;
+}
+.table-line{
+    display:flex;
+    margin:5px 0 0 0;
+    width:100%;
+}
+.table{
+    width:75px;
+    height:75px;
+    margin:0px 7px 20px 7px;
+    background-color:gray;
+    border-radius: 3px;
+}
+.info-line{
+    display: flex;
+    font-size:15px;
+    
+}
+.table-name{
+    color:white;
+    margin:1px 18px 0 4px;
+}
+.user-num{
+    color:white;
+    margin:1px 0 0 0;
+    
+}
+.user-time{
+    color:white;
+    font-size:12px;
+    margin:3px 0 3px 3px;
+}
+.table-money{
+    color:white;
+    font-size:14px;
+    margin-left:3px;
+}
+.add-user-box{
+    width:150px;
+    height:45px;
+    background-color:gray;
+    color:white;
+    font-size:18px;  
+    margin-top:30px;  
+    border-radius: 10px;
+    margin:10px auto;
+    padding-top: 15px;
+    text-align: center;;
+    position: relative;
+}
+.add-user-box a{
+   position: absolute;
+   top:0;
+   left:0;
+   width: 100%;
+   height:100%;
+   text-indent:-999px;
+   z-index:2;
+}

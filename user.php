@@ -33,29 +33,23 @@
             </form>
          </div>
     </div>
-    
+    <form action="inside-portal.php" method="post">
     <div class="user-box">
         <div class="user-name">男性 :</div>
         <div class="user-list">
-            <form action="inside-portal.php" method="post">
-                <input type="number" name="men" min="0" required>
-            </form>
+             <input type="number" name="men" min="0" required>
         </div>
     </div>
     <div class="user-box">
         <div class="user-name">女性 :</div>
         <div class="user-list">
-            <form action="inside-portal.php" method="post">
-                <input type="number" name="women" min="0" required>
-            </form>
+            <input type="number" name="women" min="0" required>
         </div>
     </div>
     <div class="user-send">
-        <form action ="inside-portal.php" method="post">
         <input type="submit" value="完了">    
-        </form>
     </div>
-
+    </form>
 </div>
 </body>
 </html>
